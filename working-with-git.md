@@ -2,7 +2,12 @@
 
 ## Auto packing the repository in background for optimum performance on git pull
 
-During most operations which can potentially increase the number of loose (unpacked) objects in the repository (including pushes), Git invokes git gc --auto. If there are enough loose objects (by default, at least 6700), it will then invoke git repack -d -l to pack them. If there are too many separate packs, it will also repack them into one.
+During most operations which can potentially increase the number of loose (unpacked) objects in the repository (including pushes), Git invokes 
+### git gc --auto. 
+
+If there are enough loose objects (by default, at least 6700), it will then invoke
+
+### git repack -d -l to pack them. If there are too many separate packs, it will also repack them into one.
 
 A pack is a delta-compressed single file, containing a large number of objects. It's more efficient to store objects in packs, but it takes time to pack (compress) objects, so Git initially creates loose objects, then packs them in batches now and then, via automatic invocation of git gc --auto.
 
