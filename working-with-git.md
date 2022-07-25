@@ -1,4 +1,19 @@
-# Git related issues and solutions
+# Git related questions and solutions
+
+
+## Merging master into feature branch
+
+git pull is the same as git fetch + git merge
+The command git pull <remote> <branch> is really just the same as git fetch <remote> and git merge <remote>/<branch>
+So there is no practical difference between
+### git pull origin master and git push - will merge master into our feature branch
+and
+### git fetch origin git merge origin/master
+
+In its default mode, git pull is shorthand for git fetch followed by git merge FETCH_HEAD.
+
+More precisely, git pull runs git fetch with the given parameters and calls git merge to merge the retrieved branch heads into the current branch.
+
 
 ## Auto packing the repository in background for optimum performance on git pull
 
