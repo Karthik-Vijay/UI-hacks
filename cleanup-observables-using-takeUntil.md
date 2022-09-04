@@ -11,3 +11,7 @@ All of this means, if we create some kind of Observable, e.g. a Subject, and mak
 ## Worth reading 
 
 https://medium.com/impact-developers/how-to-destroy-observables-in-angular-313dec343b45
+
+##RxJs Mapping Detailed Explanation
+
+https://blog.angular-university.io/rxjs-higher-order-mapping/
