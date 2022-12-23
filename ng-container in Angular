@@ -1,0 +1,74 @@
+ng-container allows us to create a division or section in a template without introducing a new HTML element. 
+The ng-container does not render in the DOM, but content inside it is rendered. 
+ng-container is not a directive, component, class, or interface, but just a syntax element.
+
+For Example
+
+The following template
+ 
+<h1> ng-Container</h2>
+<p>Hello  world! </p>
+<ng-container>               //This is removed from the final HTML
+ Container's content.
+</ng-container>
+ 
+Renders as
+ 
+<h1> ng-Container</h2>
+<p>Hello  world! </p>
+Container's content.
+ 
+You can see that the element is absent in the final HTML.
+
+Uses of ng-container
+It is a very useful directive. Especially when working with structural directives like ngIf, ngFor, etc.
+
+ng-Container with ngFor
+For Example, consider the following items. We want to display the items as a list, but only the active items. This requires two directives ngFor to loop through the items and ngIf to check if the items are active
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+ 
+ items= [
+   { name:'Angular', active:true},
+   { name:'React', active:true},
+   { name:'Typescript', active:true},
+   { name:'FoxPro', active:false},
+   { name:'Javascript', active:true},
+   { name:'ASP.NET Core', active:true},
+   { name:'DBase', active:false}
+ ]
+ 
+ 
+Without ng-container, the only way to achieve this is by using the span element as shown. This adds the unnecessary DOM element. and it may also cause issues with the CSS.
+
+ 
+<ul>
+ <span *ngFor="let item of items;">
+   <li *ngIf="item.active">
+     {{item.name}}
+   </li>
+ </span>
+</ul>
+ 
+
+By Replacing the span with ng-container our HTML renders correctly without those extra span elements
+
+<ul>
+ <ng-container *ngFor="let item of items;">
+   <li *ngIf="item.active">
+     {{item.name}}
+   </li>
+ </ng-container>
+</ul>
+
