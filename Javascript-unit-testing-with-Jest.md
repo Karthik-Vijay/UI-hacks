@@ -67,4 +67,6 @@ Example: Hide ads for premium users
 ### Tip: Test Equality: For primitive types to check equality, use toBe matcher and for other datatypes use toEqual matcher. There is toStrictEqual
 <img width="600" alt="Screenshot 2023-03-16 at 1 56 43 AM" src="https://user-images.githubusercontent.com/55907622/225434122-12489941-ee2a-46a9-b40d-bcc63c188cd5.png">
 
-### Tip: Pattern Matching: ToContain validates if an item is there
+### Tip: Pattern Matching: ToContain validates if an item is there, Also for error matching we can use toThrow()
+
+<img width="1422" alt="Screenshot 2023-03-16 at 2 14 45 AM" src="https://user-images.githubusercontent.com/55907622/225437621-47b88882-6fb0-4afd-9f4b-aeca5d3bf863.png">
