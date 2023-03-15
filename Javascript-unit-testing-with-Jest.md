@@ -77,4 +77,9 @@ Example: Hide ads for premium users
 ### Tip 4: To see code coverage in every run, we can set collectCoverage= true on jestconfig file rather than mentioning --code-coverage in every test run.
 <img width="600" alt="Screenshot 2023-03-16 at 3 03 31 AM" src="https://user-images.githubusercontent.com/55907622/225448766-68dd616b-5071-4be4-a5c8-d34535786929.png">
 
+### Tip 5: Jest will highlight issues if the standard is not met which we can set in jestconfig.js|ts|json files.
+<img width="600" alt="Screenshot 2023-03-16 at 3 08 27 AM" src="https://user-images.githubusercontent.com/55907622/225449769-66881fcc-34f6-4fd2-a3fc-b3d74bf87d3b.png">
+03-56b6c0396a78.png">
+
+
 
