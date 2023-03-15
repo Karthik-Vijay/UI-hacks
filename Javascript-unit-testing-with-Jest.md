@@ -64,9 +64,12 @@ Example: Hide ads for premium users
 
 <img width="600" alt="Screenshot 2023-03-16 at 1 45 06 AM" src="https://user-images.githubusercontent.com/55907622/225431705-59d69ede-64aa-43da-a6c8-9bb9840050fd.png">
 
-### Tip: Test Equality: For primitive types to check equality, use toBe matcher and for other datatypes use toEqual matcher. There is toStrictEqual
+### Tip1: Test Equality: For primitive types to check equality, use toBe matcher and for other datatypes use toEqual matcher. There is toStrictEqual
 <img width="600" alt="Screenshot 2023-03-16 at 1 56 43 AM" src="https://user-images.githubusercontent.com/55907622/225434122-12489941-ee2a-46a9-b40d-bcc63c188cd5.png">
 
-### Tip: Pattern Matching: ToContain validates if an item is there, Also for error matching we can use toThrow()
+### Tip2: Pattern Matching: ToContain validates if an item is there, Also for error matching we can use toThrow()
 
-<img width="1422" alt="Screenshot 2023-03-16 at 2 14 45 AM" src="https://user-images.githubusercontent.com/55907622/225437621-47b88882-6fb0-4afd-9f4b-aeca5d3bf863.png">
+<img width="600" alt="Screenshot 2023-03-16 at 2 14 45 AM" src="https://user-images.githubusercontent.com/55907622/225437621-47b88882-6fb0-4afd-9f4b-aeca5d3bf863.png">
+
+### Tip3: Testing asynchronous code (testing promises)
+<img width="600" alt="Screenshot 2023-03-16 at 2 51 09 AM" src="https://user-images.githubusercontent.com/55907622/225446609-0537c8ad-013f-41ce-8603-56b6c0396a78.png">
