@@ -31,4 +31,5 @@ If you let Git finish repacking, this won't happen again for a while. It can ind
 ### git config gc.auto 0        : - You can either turn off auto gc using this command
 ### git fsck                    : - To see whether dangling objects are triggering ongoing messages about auto-packing.
 ###  git gc --prune=now         : - If you get a long list of dangling commits, you can clean them with
+### git remote prune origin     : - to remove any old, conflicting branches
 
