@@ -1,5 +1,7 @@
 ### Blog: https://medium.com/@estherwavinya/observables-in-angular-7f90d0b2613e
 
+https://blog.bitsrc.io/mastering-rxjs-operators-unlocking-the-power-of-angular-af375e45d4eb
+
 ### Pluralsight: https://app.pluralsight.com/library/courses/rxjs-angular-reactive-development/table-of-contents
 
 ### Observable Operators
