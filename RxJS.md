@@ -2,6 +2,8 @@
 
 https://blog.bitsrc.io/mastering-rxjs-operators-unlocking-the-power-of-angular-af375e45d4eb
 
+https://medium.com/ngconf/rxjs-for-beginner-angular-developers-introduction-2d26ffa364af
+
 ### Pluralsight: https://app.pluralsight.com/library/courses/rxjs-angular-reactive-development/table-of-contents
 
 ### Observable Operators
